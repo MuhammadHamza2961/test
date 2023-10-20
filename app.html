@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 2 </title>
+</head>
+<body>
+    <h1>My first Deploy</h1>
+    
+        <input type="number" id = "value" placeholder="Enter First number">
+        <input type="number" id = "value2" placeholder ="Enter second number">
+        <input type="number" id = "value3" placeholder="Enter First number">
+        <input type="number" id = "value4" placeholder ="Enter second number">
+        <input type="number" id = "value5" placeholder="Enter First number">
+        <input type="number" id = "value6" placeholder ="Enter second number">
+        <input type="number" id = "value7" placeholder="Enter First number">
+        <input type="number" id = "value8" placeholder ="Enter second number">
+        <div id="result"></div>
+        <div id="result1"></div>
+        <div id="result2"></div>
+        <div id="result3"></div>
+        <button onclick="submit();"> Add submit</button>
+        <button onclick="submit();"> Sub submit</button>
+        <button onclick="submit();"> Mul submit</button>
+        <button onclick="submit();"> Divide submit</button>
+    <script>
+    function submit (){
+     let inputvalue = Number(document.querySelector("#value").value)
+     let inputvalue2 = Number(document.querySelector("#value2").value)
+     let result = inputvalue+inputvalue2
+     document.querySelector("#result").innerHTML = result 
+     function submit (){
+     let inputvalue3 = Number(document.querySelector("#value3").value)
+     let inputvalue4 = Number(document.querySelector("#value4").value)
+     let result1 = inputvalue3-inputvalue4
+     document.querySelector("#result1").innerHTML = result2
+     }
+
+     function submit (){
+     let inputvalue5 = Number(document.querySelector("#value5").value)
+     let inputvalue6 = Number(document.querySelector("#value6").value)
+     let result2 = inputvalue5*inputvalue6
+     document.querySelector("#result2").innerHTML = result3
+     }
+
+     function submit (){
+     let inputvalue7 = Number(document.querySelector("#value7").value)
+     let inputvalue8 = Number(document.querySelector("#value8").value)
+     let result3 = inputvalue7-inputvalue8 
+     document.querySelector("#result3").innerHTML = result4
+     }
+
+
+
+     console.log(result)
+
+    }
+    // data container let var const
+// console.log(Hamza)
+// const Hamza = "Hamza"
+
+    // console.log(name)
+    // var name = "Hamza"
+    // const lastname = " Ahmed"
+
+
+    // console.log(name,lastname)
+    // lastname = "Ahmed Ali"
+    // console.log(lastname)
+
+//how to decleare  a variable
+
+    // let meranamehamzaha = " Hamza"
+    // let meraNameHamzaHa = "Hamza"
+    // let _Hamza = "abc"
+    // let $Hamza = "pqr"
+    //let 2sheraz = "cxgvdfb"  //not recomemded
+    // let a = " we are working"
+
+    // var name = "Hamza"
+    // console.log(name)   
+
+    //alert
+    // let greet = "Good Morning"
+    // let name = "Sheraz"
+    // alert(greet +  " " + name)
+
+
+
+//    let num1 = 12
+//    let num2 = 8 
+//     let result = num1 + num2
+//     let result1 = num1 - num2
+//     let result2= num1 * num2
+//     let result3= num1 / num2
+// console.log(result)
+// console.log(result1)
+// console.log(result2)
+// console.log(result3)
+
+
+
+
+
+
+    </script>
+</body>
+</html>
